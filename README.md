@@ -16,9 +16,12 @@ Student
 
 ### Drag Racing reaction time game  
 
-> A game based on reaction time and real life drag racing.
+> ## 🚀 Featured Project
 
+### Drag Racing Sim
 
-🔗 https://github.com/brody20051/cuddly-happiness-gamefinal
+> A reaction-based drag racing game with AI opponent and real-time gameplay.
 
-https://brody20051.github.io/cuddly-happiness-gamefinal/
+🔗 GitHub Pages: https://brody20051.github.io/cuddly-happiness-gamefinal/  
+🌐 GCP: http://http://35.193.214.231/ 
+💻 Repo: https://github.com/brody20051/cuddly-happiness-gamefinal
