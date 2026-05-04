@@ -15,8 +15,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, span {
 
 /* HERO */
 .hero {
-  position: relative;
   height: 65vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   display: flex;
   align-items: center;
   justify-content: center;
