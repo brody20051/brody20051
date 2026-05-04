@@ -16,7 +16,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, span {
 /* HERO */
 .hero {
   height: 65vh;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-color:#0f0f0f
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, span {
 .hero h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
+  
 }
 
 /* SUBTEXT */
