@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* GLOBAL */
 body {
   font-family: 'Inter', sans-serif;
   background: #0f0f0f;
@@ -5,25 +8,30 @@ body {
   margin: 0;
 }
 
-/* HERO SECTION */
+/* FORCE ALL TEXT WHITE */
+body, h1, h2, h3, h4, h5, h6, p, a, span {
+  color: white !important;
+}
+
+/* HERO */
 .hero {
   position: relative;
   height: 65vh;
-  background: url("../images/dragstrip.jpg") center/cover no-repeat;
+  background: url("../images/draggame.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* DARK OVERLAY */
+/* OVERLAY */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.6);
 }
 
-/* TEXT CONTENT */
+/* HERO CONTENT */
 .hero-content {
   position: relative;
   text-align: center;
@@ -33,15 +41,16 @@ body {
 .hero h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  text-shadow: 0 0 15px rgba(0, 200, 83, 0.6);
+  text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
 }
 
 /* SUBTEXT */
 .hero p {
   font-size: 1.2rem;
+  color: #ccc !important;
 }
 
-/* PROJECT CARD */
+/* CARD */
 .project-card {
   background: #1c1c1c;
   border: none;
@@ -49,7 +58,7 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* HOVER EFFECT */
+/* HOVER */
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
@@ -59,15 +68,17 @@ body {
 .btn-success {
   background: #00c853;
   border: none;
+  color: white !important;
 }
 
 .btn-outline-light {
   border: 1px solid white;
+  color: white !important;
 }
 
 /* LINKS */
 a {
-  color: #00c853;
+  color: #00ff88 !important;
   text-decoration: none;
 }
 
