@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* FORCE ALL TEXT WHITE */
+/* FORCE ALL TEXT WHITE */ 
 body, h1, h2, h3, h4, h5, h6, p, a, span {
   color: white !important;
 }
